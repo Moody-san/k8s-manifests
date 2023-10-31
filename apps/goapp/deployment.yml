@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: goapp
-        image: moodysan/goapp:13
+        image: moodysan/goapp:14
         ports:
         - containerPort: 8080
