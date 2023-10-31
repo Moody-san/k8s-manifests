@@ -1,20 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook-ui
+  name: goapp-deployment
 spec:
-  replicas: 1
-  revisionHistoryLimit: 3
+  replicas: 3
   selector:
     matchLabels:
-      app: guestbook-ui
+      app: goapp
   template:
     metadata:
       labels:
-        app: guestbook-ui
+        app: goapp
     spec:
       containers:
-      - image: gcr.io/heptio-images/moodysan/goapp:3
-        name: guestbook-ui
+      - name: goapp
+        image: moody-san/goapp:3
         ports:
-        - containerPort: 80
+        - containerPort: 8080
