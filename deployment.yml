@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: gcr.io/heptio-images/moodysan/goapp:2
+      - image: gcr.io/heptio-images/moodysan/goapp:3
         name: guestbook-ui
         ports:
         - containerPort: 80
