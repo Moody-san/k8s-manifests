@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: goapp-deployment
+  name: app1-deployment
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: goapp
+      app: app1
   template:
     metadata:
       labels:
-        app: goapp
+        app: app1
     spec:
       containers:
-      - name: goapp
+      - name: app1
         image: moodysan/app1:41
         ports:
         - containerPort: 8080
