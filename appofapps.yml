@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/Moody-san/k8s-manifests.git
-    targetRevision: oracle
+    targetRevision: azure
     path: ./app-of-apps
   destination:
     server: https://kubernetes.default.svc
