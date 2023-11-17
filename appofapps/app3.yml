@@ -15,7 +15,7 @@ spec:
    
   destination:
     server: https://10.0.1.95:6443
-    namespace: app3
+    namespace: default
 
   syncPolicy:  
     automated:
