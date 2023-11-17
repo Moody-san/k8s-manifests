@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/Moody-san/k8s-manifests.git
     targetRevision: oracle
-    path: ./manifests/app1
+    path: ./manifests/app3
    
   destination:
     server: https://10.0.1.95:6443
