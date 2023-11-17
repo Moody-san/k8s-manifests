@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Moody-san/k8s-manifests.git
     targetRevision: azure
-    path: ./app-of-apps
+    path: ./appofapps
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
