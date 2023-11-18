@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app3
+  name: app3-oracle
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
