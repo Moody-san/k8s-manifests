@@ -14,7 +14,7 @@ spec:
     path: ./manifests/app3
    
   destination:
-    server: oraclecluster
+    server: https://10.0.1.176:6443
     namespace: default
 
   syncPolicy:  
