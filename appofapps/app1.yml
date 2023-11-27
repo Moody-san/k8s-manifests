@@ -14,7 +14,7 @@ spec:
     path: ./manifests/app1
    
   destination:
-    server: azurecluster
+    server: https://192.0.1.5:6443
     namespace: default
 
   syncPolicy: 
