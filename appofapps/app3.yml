@@ -14,7 +14,7 @@ spec:
     path: ./manifests/app3
    
   destination:
-    server: https://10.0.1.233:6443
+    server: https://10.0.1.106:6443
     namespace: default
 
   syncPolicy:  
