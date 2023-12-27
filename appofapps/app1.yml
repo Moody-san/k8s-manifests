@@ -14,7 +14,7 @@ spec:
     path: ./manifests/app1
    
   destination:
-    server: https://192.0.1.4:6443
+    server: https://192.0.1.12:6443
     namespace: default
 
   syncPolicy: 
