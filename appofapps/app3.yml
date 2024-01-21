@@ -14,7 +14,7 @@ spec:
     path: ./manifests/app3
    
   destination:
-    server: https://azure_lb:6443
+    server: https://192.0.1.8:6443
     namespace: default
 
   syncPolicy:  
