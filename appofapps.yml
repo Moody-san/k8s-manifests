@@ -9,7 +9,7 @@ spec:
     repoURL: https://github.com/Moody-san/k8s-manifests.git
     targetRevision: oracle
     path: ./appofapps
-  destination: https://kubernetes.default.svc
+  destination:
     server: in-cluster
     namespace: argocd
   syncPolicy:
