@@ -10,7 +10,7 @@ spec:
     targetRevision: oracle
     path: ./appofapps
   destination:
-    server: https://kubernetes.default.svc
+    server: in-cluster
     namespace: argocd
   syncPolicy:
     automated:
