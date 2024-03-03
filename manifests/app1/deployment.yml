@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: app1
-        image: moodysan/app1:4
+        image: moodysan/app1:2
         ports:
         - containerPort: 8080
