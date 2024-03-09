@@ -1,1 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: user-service-oracle
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
 
+  source:
+    repoURL: https://github.com/Moody-san/k8s-manifests.git
+    targetRevision: oracle
+    path: ./manifests/user-service
+   
+  destination:
+    server:  https://10.0.1.158:6443
+    namespace: default
+
+  syncPolicy: 
+    automated:
+      prune: true
+      selfHeal: true
