@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: moodysan/product-service:12
+        image: moodysan/product-service:1
         ports:
         - containerPort: 9020
         env:
