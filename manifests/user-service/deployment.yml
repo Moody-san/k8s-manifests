@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: moodysan/user-service:12
+        image: moodysan/user-service:14
         ports:
         - containerPort: 9000
         env:
