@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: payment-service
-        image: moodysan/payment-service:3
+        image: moodysan/payment-service:4
         ports:
         - containerPort: 9020
         env:
